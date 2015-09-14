@@ -29,7 +29,11 @@ namespace ReadFromCommandLine
 			test = test.Replace (" , ",";");
 			Console.WriteLine (" Работа с Replace: " + test + "\n");
 
-			 Console.WriteLine (" 3ти знак: " + test.Split (';')[2] );
+			//Извеждане на 3-тия знак от нашия стрингов низ 
+			Console.WriteLine (" 3ти знак: " + test.Split (';')[2] );
+
+
+
 
 
 		
