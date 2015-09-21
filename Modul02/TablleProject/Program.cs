@@ -30,7 +30,10 @@ namespace TablleProject
 				(
 				table [_index,(int) ti.ime]) [0] + ". " + 
 				table [_index, (int)ti.familia] + ", " + 
-				table [_index,(int) ti.godini] + " -. ");
+				table [_index,(int) ti.godini] + " -. "
+			);
+
+			Console.ReadKey ();
 
 			//Създаване на масив
 			//			string[] row = new string[3];
