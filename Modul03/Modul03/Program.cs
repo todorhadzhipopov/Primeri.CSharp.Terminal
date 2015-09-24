@@ -13,16 +13,23 @@ namespace Modul03
 			Console.Write ("> b =");
 			b = Convert.ToDouble(Console.ReadLine ());
 
+			//Форматиране с дименсия
 			string _format ="#0.00 м3" ;
 
+			//Степенуване
+			c = Math.Pow ( a, b );
+			Console.WriteLine ("\n\na ^ b = "+ c.ToString(_format));
+
+			//Коренуване
+			c = Math.Sqrt ( b );
+			Console.WriteLine ("\n\nb ^ 1/2 = "+ c.ToString(_format));
+
+			//Закръгления
+			c = Math.Round ( a /b );
+			Console.WriteLine ("\n\n(a / b) = " + c.ToString());
 
 
 
-
-
-
-
-			Console.WriteLine ("\n\na / b = "+ (a / b).ToString(_format));
 		}
 	}
 }
