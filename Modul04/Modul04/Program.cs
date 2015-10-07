@@ -33,15 +33,31 @@ namespace Modul04
 //			}
 
 			//Примери с while
-			int i =0;
+//			int i =0;
+//
+//			while (i < _table.Length / 3 )
+//			{
+//				Console.WriteLine (_table[i,0].PadRight(12) +
+//					_table[i,1].PadRight (12) +
+//					_table[i,2].PadRight (12));
+//				i++;
+//			}
 
-			while (i < _table.Length / 3 )
-			{
+
+			//Пример с do...while
+			int i = 0;
+			do 
+			{ //Код
+
 				Console.WriteLine (_table[i,0].PadRight(12) +
-					_table[i,1].PadRight (12) +
-					_table[i,2].PadRight (12));
+				_table[i,1].PadRight (12) +
+				_table[i,2].PadRight (12)
+				);
 				i++;
+
+
 			}
+			while (i < _table.Length / 3);
 
 		}
 	}
